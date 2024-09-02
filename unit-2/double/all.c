@@ -143,6 +143,8 @@ int main() {
       } else {
         printf("Invalid position\n");
       }
+      printf("Linked list after insertion: ");
+      displayForward();
       break;
     case 2:
       printf("Enter data to insert: ");
@@ -158,6 +160,8 @@ int main() {
       } else {
         printf("Invalid position\n");
       }
+      printf("Linked list after insertion ");
+      displayForward();
       break;
     case 3:
       printf("Linked list in forward order: ");
